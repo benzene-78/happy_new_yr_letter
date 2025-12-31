@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  background-color: #fff0f5; /* Lavender blush */
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-pastel-pink text-warm-brown font-bold rounded-full shadow-lg hover:bg-pink-300 transition-all duration-300 transform hover:scale-105 active:scale-95;
+}
+
+.card {
+  @apply bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border-4 border-white;
+}
